@@ -3,12 +3,6 @@
     internal class Program
     {
         static void Main(string[] args)
-    {
-            namespace MilyonerV1
-{
-    internal class Program
-    {
-        static void Main(string[] args)
         {
             #region Kim Milyoner Olmak İster - V1
             Console.WriteLine("Kim Milyoner Olmak İster\n");
@@ -35,8 +29,8 @@
                 // TODO: Kurallar eklenecek.
                 Console.Write("Kurallar:");
                 Console.WriteLine("1. Cevabından emin olduğunuz şıkkı seçiniz");
-                Console.WriteLine("2. Soruları bilemezseniz kullanabileceğiniz 3 joker hakkınız var veya yarışmadan çekilebilirsiniz);
-                Console.WriteLine("3. Yarışmadan çekilirseniz kazandığınız ödül soru değeri olucaktır. Baraj soruları sizin sabit ödülünüzdür);
+                Console.WriteLine("2. Soruları bilemezseniz kullanabileceğiniz 3 joker hakkınız var veya yarışmadan çekilebilirsiniz");
+                Console.WriteLine("3. Yarışmadan çekilirseniz kazandığınız ödül soru değeri olucaktır. Baraj soruları sizin sabit ödülünüzdür");
             }
 
             Console.Write("Hazır Mısınız? : ");
@@ -171,12 +165,11 @@
             Console.WriteLine("Tebrikler, Kazandığınız Tutar: " + kasa + " TL");
             Console.WriteLine("\nSonraki Soruya Geçmek  İçin Enter'a Basın..");
             Console.ReadLine();
-            #endregion
 
 
-            #endregion
+
         }
+      
     }
+    #endregion
 }
-        }
-    
