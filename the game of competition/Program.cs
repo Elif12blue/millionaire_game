@@ -219,9 +219,7 @@
                     Console.ReadLine();
                 }
 
-                bool seyirciHak = true, yuzdeHak = true, telefonHak = true;
-                int kasa = 0;
-
+                bool seyirciHak = true, yuzdeHak = true, telefonHak = true; int kasa = 0;
                 int soruNo = 1, odul, baraj;
                 int seyirciYuzdeA, seyirciYuzdeB, seyirciYuzdeC, seyirciYuzdeD;
                 bool gizleA, gizleB, gizleC, gizleD;
@@ -231,10 +229,7 @@
                 #region Soru Bilgileri
                 soruNo = 1;
                 soru = "Türkiyenin Başkenti Neresidir?";
-                a = "Ankara";
-                b = "Bursa";
-                c = "Van";
-                d = "Denizli";
+                a = "Ankara"; b = "Bursa"; c = "Van" d = "Denizli";
                 cevap = 'A';
                 odul = 1000;
                 baraj = 0;// TODO: SoruNo ile baraj ilişkisi.
@@ -343,12 +338,15 @@
                 Console.WriteLine("Tebrikler, Kazandığınız Tutar: " + kasa + " TL");
                 Console.WriteLine("\nSonraki Soruya Geçmek  İçin Enter'a Basın..");
                 Console.ReadLine();
-                #endregion
 
 
+
                 #endregion
+
 
             }
+
         }
     }
 }
+#endregion
